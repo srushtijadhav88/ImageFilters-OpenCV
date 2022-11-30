@@ -60,11 +60,6 @@ def uploadImage(key):
     
     return cv2.cvtColor(preProcessImg(cv2.imread('sample.jpg')),cv2.COLOR_BGR2RGB)
 
-# About Me UI 
-
-def aboutMe():
-    
-
 # Average Filter 
 
 def averageFilter():
