@@ -64,7 +64,6 @@ def uploadImage(key):
 
 def aboutMe():
     
-    st.markdown(requests.get(os.getenv('ABOUT_ME','https://raw.githubusercontent.com/AdarshZamwar/AdarshZamwar/main/README.md')).text, unsafe_allow_html=True)
 
 # Average Filter 
 
