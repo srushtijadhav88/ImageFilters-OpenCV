@@ -26,8 +26,6 @@ def main():
     tabs = st.tabs(('About Me','Average Filter', 'Median Filter', 'Gaussian Filter', 'Salt & Pepper Noise'))
 
     # UI Options 
-    with tabs[0]:
-        aboutMe() 
     with tabs[1]:
         averageFilter()
     with tabs[2]:
